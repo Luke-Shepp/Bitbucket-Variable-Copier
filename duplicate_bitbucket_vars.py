@@ -1,3 +1,7 @@
+## TODO's:
+## - Handle multiple pages of variables
+## - Add more error handling for unexpected API responses
+
 import requests
 
 class Colors:
