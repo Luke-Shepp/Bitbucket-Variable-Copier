@@ -42,7 +42,7 @@ def get_variables():
             continue
 
         if value['secured']:
-            print_fail("\t" + value['key'] +  ": " + value['value'] + " **SECURED, IGNORING**")
+            print_fail("\t'" + value['key'] +  "' **SECURED, IGNORING**")
             continue
 
         variables[value['key']] = value['value']
